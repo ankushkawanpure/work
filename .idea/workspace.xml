@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec88672-8af6-4871-972d-d8d571f1905a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="4ec88672-8af6-4871-972d-d8d571f1905a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,11 +21,9 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="-600">
               <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <marker date="1489217174000" expanded="true" signature="2521:2526" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,12 +180,12 @@
       <updated>1488762467270</updated>
       <workItem from="1488762471565" duration="163000" />
       <workItem from="1488789877893" duration="1468000" />
-      <workItem from="1489217105815" duration="120000" />
+      <workItem from="1489217105815" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1751000" />
+    <option name="totallyTimeSpent" value="1916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -230,9 +225,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489217174000" expanded="true" signature="2521:2526" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -254,11 +247,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="-600">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1489217174000" expanded="true" signature="2521:2526" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
