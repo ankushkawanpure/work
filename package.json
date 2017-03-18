@@ -7,12 +7,12 @@
     "react-dom": "15.4.2"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.2.0",
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",
     "babel-jest": "18.0.0",
     "babel-loader": "6.2.10",
+    "babel-preset-env": "^1.2.0",
     "babel-preset-react-app": "^2.1.1",
     "babel-runtime": "^6.20.0",
     "case-sensitive-paths-webpack-plugin": "1.1.4",
@@ -22,13 +22,13 @@
     "css-loader": "0.26.1",
     "detect-port": "1.0.1",
     "dotenv": "2.0.0",
-    "eslint": "3.8.1",
+    "eslint": "^3.8.1",
     "eslint-config-react-app": "^0.5.2",
     "eslint-loader": "1.6.0",
     "eslint-plugin-flowtype": "2.21.0",
     "eslint-plugin-import": "2.0.1",
     "eslint-plugin-jsx-a11y": "2.2.3",
-    "eslint-plugin-react": "6.4.1",
+    "eslint-plugin-react": "^6.4.1",
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "filesize": "3.3.0",
@@ -54,7 +54,12 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js && cp -R ./build/ ./",
-    "test": "node scripts/test.js --env=jsdom"
+    "lint:watch": "npm run lint:node && npm run lint:browser",
+    "lint:node": "eslint --config=./.eslintrc *.js scripts/*.js",
+    "lint:browser": "eslint --config=.eslintrc src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "test": "eslint src/**/*.js"
+
   },
   "jest": {
     "collectCoverageFrom": [
@@ -84,8 +89,5 @@
     "presets": [
       "react-app"
     ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   }
 }
